@@ -1,0 +1,99 @@
+:root
+{
+    --black : #222831;
+    --gray : #393e46;
+    --blue :#0092ca;
+    --white :#eeeeee;
+}
+*{
+    margin: 0;
+}
+
+body
+{
+ font-family: "Myriad Pro","Helvetica Neue",Helvetica,Arial,Sans-Serif;
+ background-color:snow;
+ margin : 0;
+ background-image: url("photo.jpg");
+ background-size: cover;
+ 
+ 
+}
+.note
+{
+    background-color: var(--blue);
+    color:white;
+    text-align:center;
+}
+.note h1
+{
+    padding: 10px;
+    margin: 0 0 3px 0;
+}
+.note p{
+    padding: 10px;
+}
+.wrapper
+{
+ text-align:center;
+ width: 30%;
+ margin: 0 auto;
+ border: none;
+ background-color: var(--gray);
+ padding-bottom: 2%;
+}
+
+.wrapper p
+{
+ padding: 20px;
+ font-size:30px;
+ color:white;
+
+}
+
+.note_form .form_title
+{
+padding:20px ;
+font-size:30px;
+font-weight:bold;
+color:white;
+}
+label{
+    color: white;
+    padding: 10px;
+    margin: 10px;
+}
+
+.button
+{
+width: 200px;
+border:none;
+padding: 10px;
+margin-bottom: 10px;
+border-radius:10px;
+font-size:17px;
+background-color:orangered;
+color:white;
+font-weight:bold;
+}
+.note_form input[type="text"],input[type="password"]
+{
+margin:10px;
+width:200px;
+border-radius:10px;
+font-size:15px;
+padding: 5px;
+
+}
+a{
+    color:orange
+}
+#login_form
+{
+    margin-top: 20%;
+}
+
+
+
+
+

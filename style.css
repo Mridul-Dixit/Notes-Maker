@@ -1,0 +1,229 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #eeeeee;
+}
+
+ul {
+  background-color: #343a40;
+  color: white;
+  padding: 11px;
+  padding: 16px;
+
+
+}
+
+ul span {
+  float: right;
+  margin-right: 2px;
+
+
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: inline;
+  padding: 14px 16px;
+
+}
+
+li h3 {
+  display: inline;
+}
+
+.welcome {
+  font-size: xx-large;
+  text-align: left;
+  margin-left: 10%;
+
+
+
+}
+
+form {
+  display: inline;
+}
+
+.form-group {
+
+  text-align: center;
+  z-index: -1;
+}
+
+input[type=text] {
+
+  width: 130px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: white;
+
+  padding: -1px 20px 12px 1px;
+  transition: width 0.4s ease-in-out;
+}
+
+/* .title{
+    margin-left: 5%;
+    width: 89%;
+    padding: 0.5%;
+  } */
+.dropbtn {
+  background-color: #343a40;
+  color: white;
+  border-color: #343a40;
+
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 100px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 6px 2px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+li a,
+.dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+
+  text-decoration: none;
+}
+
+#search:focus {
+  width: 70%;
+}
+
+textarea {
+  font-size: 20px;
+
+
+}
+
+.card {
+  margin-top: 25px;
+  width: 80%;
+  margin: 5px auto;
+  padding: 10px;
+}
+
+.card-body {
+  border: 1px solid #00000026;
+  padding: 10px;
+
+}
+
+.card-title {
+  padding: 9px;
+  color: rgb(18, 17, 17);
+  margin-left: 5%;
+  font-size: larger;
+  font-family: sans-serif;
+}
+
+#addBtn {
+  background-color: #007bff;
+  border-color: #007bff;
+  text-align: center;
+  font-size: medium;
+  padding: 7px 8px;
+  color: white;
+  margin: 5px 5%;
+  
+  
+}
+
+#addTxt {
+  border-color: #0000004d;
+  width: 90%;
+}
+
+#notes {
+  width: 80%;
+  
+}
+
+.noteCard {
+  width: 25%;
+  padding: 15px;
+  display: inline-block;
+}
+
+.card-body p {
+  font-size: 20px;
+  margin-left: 6%;
+  margin-bottom: 15px;
+
+}
+
+.btn {
+  background-color: #007bff;
+  border-color: #007bff;
+  text-align: center;
+  color: white;
+  border-radius: 7px;
+  padding: 10px;
+  margin: 5px auto;
+  margin-left: 6%;
+}
+
+.btn:hover,
+#addBtn:hover {
+  background-color: #0060c6;
+}
+
+.card-body p {
+  /* font-size: 20px; */
+  margin-left: 6%;
+  margin-bottom: 15px;
+  overflow: auto;
+}
+
+body {
+  background-color: #eeeeee;
+}
+.delete
+{
+  background-color:red;
+  border-color:red;
+  text-align: center;
+  color: white;
+  border-radius: 7px;
+  padding: 10px;
+  margin: 5px auto;
+  margin-left: 6%;
+}
+.innerCard{
+  padding: 9px;
+  color: rgb(18, 17, 17);
+  margin-left: 5%;
+  font-size: 25px;
+  font-family: sans-serif;
+}
